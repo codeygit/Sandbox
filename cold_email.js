@@ -115,41 +115,35 @@ async function main() {
       }
     });
     const senderEmail = `${gmailAcct.EMAIL}`; // Update with sender's email
-    const emailList = ['Mkaiser@peoplescare.Org','Yumingy@icloud.Com','Akwaabafarms@gmail.Com','Djw20@aol.Com','Dustin@therichardscompany.Net','DuxovLLC@gmail.Com','Jeremy+bcc@calaveraslittletrees.Com','John@desertkush.Com','Jscainc@gmail.Com','Mitcho.Thompson@phytomagic.Com','Phvesq@gmail.Com','Rc@thegrowceryla.Com','Tcrites@sparcsf.Org','Vincekrow@gmail.Com','Baycaredelivery@gmail.Com','Bryantmitch@gmail.Com','Jtproducer@gmail.Com','Keygardensdistro@gmail.Com','Calitreedtla@gmail.Com','DankoryLLC@gmail.Com','Dustin@goembarc.Com','George.Workman@kolaseed.Com','Info@massiveindustriesLLC.Com','Info@mercywellness.Com','Info@ranchosupply.Com','Justin.Nv@haloco.Com','Licensure@complexconcentrates.Com','Michael.Nguyen@fiacreinc.Com','Omgrown@gmail.Com','Peter@thepnegroup.Com']
+    const emailList = ['greenpharmironriver@gmail.com','admin@cannaplugmi.com','ngocaj@aol.com','sturgismanagement@enjoylevels.com','quincy@joyology.com','greencare313@yahoo.com','bruce_kello@yahoo.com','bruce_kello@yahoo.com','employment2009@aol.com','farmscience@aol.com','detroit@flowerbowl.com','5anddime.frontdesk@gmail.com','fiveanddime@pharmacoinc.com','motownmeds@pharmacoinc.com','shakeandbake@pharmacoinc.com','apollocannabisco@gmail.com','flowerbowlmain@gmail.com','fiveanddimedet@gmail.com','info@houseofevo.com','greenbeanflint@gmail.com','anthony@exoticscannabisco.com','jackson@firstclasscannabisco.com','lansing@firstclasscannabisco.com','camden@firstclasscannabisco.com','mountpleasant@enjoylevels.com','kalamazooorders@shophod.com','portage@firstclasscannabisco.com','bentonharbor@firstclasscannabisco.com','monroe@firstclasscannabisco.com','hello@shophcc.com']
     const mailOptions = {
       from: `"${gmailAcct.NAME}" <${gmailAcct.EMAIL}>`,
       // subject: `Seamless Transactions, Increased Revenue: Try Our Credit Card Processing Solutions`,
       // subject: `Tap Into Convenience: Enable Apple Pay for Your Dispensary`,
       //subject: `Cashless ATMs: The Smart Choice for Your Dispensary`,
-      subject: `Simplify Payments, Maximize Rebates: Try Our Cashless ATMs`,
+      subject: `Transform Your Dispensary with Tap to Pay & Mobile Payments`,
       text: 
       //Cashless ATM if they are a dispo #1
-      // 'Hey,\n\n' +
-      // 'Has your dispensary been having issues with debit card processing? We\'re experts in this space and can set you up with:\n\n' +
-      // '- Cashless ATM/Debit Card Solutions\n' +
-      // // '- Apple Pay & Samsung Pay\n' +
-      // '- Terminals for Delivery Service\n' +
-      // '- Quickbooks Integration\n' +
-      // '- ACH Banking & Wire Services\n\n' +
-      // 'Not only will this increase your number of transactions, but we\'re confident we can save you money compared to other providers. Additionally, you\'ll earn a rebate on every transaction made, adding even more to your savings. Our team will handle the easy setup so there\'s zero disruption to your business. Experience seamless transactions while saving on costs compared to other providers. Our team ensures easy setup with zero disruption to your dispensary\'s operations. Boost sales effortlessly.\n\n' +
-      // 'Payment processing is a crucial part of growing your dispensary. Why not get it squared away properly with some folks who really know the cannabis industry?\n\n' +
-      // 'I\'d love to hop on a quick call to explain more. When\'s a good time for you in the next few days? You can also shoot me back an email. Looking forward to hearing back from you soon!\n\n' +
-      // 'Best,\n' +
-      // `${gmailAcct.NAME}\n` +
-      // 'Business Development Representative\n' +
-      // 'Spectrum Payment Solutions\n' +
-      // `Email: ${gmailAcct.EMAIL}`
-
-      //Cashless ATM #1 if they are a dispo #2
-      'Hey,\n\n' +
-      'Are you looking for a simple, reliable payment solution for your dispensary? Our Cashless ATM solution is exactly what you need—no contracts, no maintenance fees, and no hidden costs. Plus, your first terminal is on us, and you can try our service with no risk. If you\'re not satisfied, you can cancel anytime without any charges.\n\n' +
-      'Additionally, you\'ll earn a rebate on every transaction, potentially saving your dispensary thousands of dollars each month. Our plug-and-play terminals are easy to set up, requiring no complex integration. They are also 4G compatible, perfect for delivery services, and can include a tip line if desired.\n\n' +
-      'I\'d love to discuss how our solution can benefit your dispensary. What time are you available for a call this week?\n\n' +
+      `Hi,\n\n` +
+      `Are you currently looking for a credit card solution that could boost your dispensary\’s revenue?\n\n` +
+      `Our system offers Tap to Pay, Apple Pay, and Google Pay, making transactions quick and convenient for your customers. Dispensaries that accept credit cards typically see a 30% to 70% increase in sales. Plus, it\’s easy to set up and integrates seamlessly with your existing system.\n\n` +
+      `If this sounds like something you\’re interested in, let\’s set up a quick call to discuss the details. I\’d love to help you get started.\n\n` +
       'Best,\n' +
       `${gmailAcct.NAME}\n` +
       'Business Development Representative\n' +
       'Spectrum Payment Solutions\n' +
       `Email: ${gmailAcct.EMAIL}`
+
+      //Cashless ATM #1 if they are a dispo #2
+      // 'Hi,\n\n' +
+      // 'Are you searching for a simple and reliable payment solution for your dispensary? Our Cashless ATM solution is just what you need. We offer no contracts or maintenance fees, and the first terminal is free, reducing your initial investment. You\'ll earn rebates on every transaction, potentially saving your dispensary thousands each month.\n\n' +
+      // 'Our terminals are easy to set up with a plug-and-play system, 4G compatible for delivery services, and can include a tip line if desired. Enjoy quick two-day funding and an online dashboard to review transactions effortlessly. Plus, you can try our service risk-free and cancel anytime without any charges.\n\n' +
+      // 'I\'d love to discuss how our solution can benefit your dispensary. What time are you available for a call this week?\n\n' +
+      // 'Best,\n' +
+      // `${gmailAcct.NAME}\n` +
+      // 'Business Development Representative\n' +
+      // 'Spectrum Payment Solutions\n' +
+      // `Email: ${gmailAcct.EMAIL}`
 
 
       //Cashless ATM if they are dispo w no cashless payment #1
